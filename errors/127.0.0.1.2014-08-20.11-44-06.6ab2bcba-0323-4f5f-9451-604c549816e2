@@ -1,0 +1,21 @@
+(dp1
+S'output'
+p2
+S"<type 'exceptions.AttributeError'> 'FORM' object has no attribute 'acepted'"
+p3
+sS'layer'
+p4
+S'/home/desarrollo/myapp/sismun/web2py/applications/tavooca/controllers/default.py'
+p5
+sS'code'
+p6
+S'# -*- coding: utf-8 -*-\n# this file is released under public domain and you can use without limitations\n\n#########################################################################\n## This is a sample controller\n## - index is the default action of any application\n## - user is required for authentication and authorization\n## - download is for downloading files uploaded in the db (does streaming)\n### - call exposes all registered services (none by default)\n#########################################################################\n\n\ndef index():\n    session.contador = (session.contador or 0) + 1\n    return dict(mensaje="Hola desde MiApp", contador=session.contador)\n\ndef primera():\n\tformulario = FORM(INPUT(_name=\'nombre_del_visitante\', requires=IS_NOT_EMPTY()), \n\t\tINPUT(_type=\'submit\'))\n\tif formulario.process().acepted:\n\t\tsession.nombre_del_visitante = formulario.vars.nombre_del_visitante\n\t\tredirect(URL(\'segunda\'))\n\treturn dict(formulario=formulario)\n\ndef segunda():\n\tif not request.function==\'primera\' and not session.nombre_del_visitante:\n\t\tredirect(URL(\'primera\'))\n\treturn dict()\n\nresponse._vars=response._caller(primera)\n'
+p7
+sS'snapshot'
+p8
+(dp9
+sS'traceback'
+p10
+S'Traceback (most recent call last):\n  File "/home/desarrollo/myapp/sismun/web2py/gluon/restricted.py", line 220, in restricted\n    exec ccode in environment\n  File "/home/desarrollo/myapp/sismun/web2py/applications/tavooca/controllers/default.py", line 30, in <module>\n  File "/home/desarrollo/myapp/sismun/web2py/gluon/globals.py", line 385, in <lambda>\n    self._caller = lambda f: f()\n  File "/home/desarrollo/myapp/sismun/web2py/applications/tavooca/controllers/default.py", line 20, in primera\n    if formulario.process().acepted:\nAttributeError: \'FORM\' object has no attribute \'acepted\'\n'
+p11
+s.
