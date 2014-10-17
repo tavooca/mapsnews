@@ -1,0 +1,1088 @@
+(dp1
+S'output'
+p2
+S"<class 'gluon.contrib.pg8000.errors.ProgrammingError'> ('ERROR', '42883', 'function addgeometrycolumn(unknown, unknown, unknown, integer, unknown, integer) does not exist')"
+p3
+sS'layer'
+p4
+S'/home/desarrollo/myapp/sismun/web2py/applications/mapsnews/models/db.py'
+p5
+sS'code'
+p6
+S'# -*- coding: utf-8 -*-\n\n# -*- coding: utf-8 -*-\ndb = DAL(\'postgres://postgres:oca01tex@localhost:5432/testw2p\', lazy_tables=False,)\ndb.define_table(\'geostuff\',\n    Field(\'name\', \'string\'),\n    Field(\'geometry\', \'geometry()\'),\n    )\nn_rows = db(db.geostuff).count()\nif not n_rows:\n    db.geostuff.insert(name="My first geo point (London!)", geometry="POINT(-0.091109 51.512622)")\n    db.geostuff.insert(name="My first linestring", geometry="LINESTRING (8.791595 45.660281, 11.343062 44.494932, 10.394590 43.722998)")\n'
+p7
+sS'snapshot'
+p8
+(dp9
+S'exception'
+p10
+(dp11
+S'__module__'
+p12
+S"'gluon.contrib.pg8000.errors'"
+p13
+sS'__getslice__'
+p14
+S"<method-wrapper '__getslice__' of ProgrammingError object>"
+p15
+sS'__str__'
+p16
+S"<method-wrapper '__str__' of ProgrammingError object>"
+p17
+sS'__reduce__'
+p18
+S'<built-in method __reduce__ of ProgrammingError object>'
+p19
+sS'__dict__'
+p20
+S'{}'
+p21
+sS'__sizeof__'
+p22
+S'<built-in method __sizeof__ of ProgrammingError object>'
+p23
+sS'__weakref__'
+p24
+S'None'
+p25
+sS'__init__'
+p26
+S"<method-wrapper '__init__' of ProgrammingError object>"
+p27
+sS'__setattr__'
+p28
+S"<method-wrapper '__setattr__' of ProgrammingError object>"
+p29
+sS'__reduce_ex__'
+p30
+S'<built-in method __reduce_ex__ of ProgrammingError object>'
+p31
+sS'__new__'
+p32
+S'<built-in method __new__ of type object>'
+p33
+sS'__format__'
+p34
+S'<built-in method __format__ of ProgrammingError object>'
+p35
+sS'__class__'
+p36
+S"<class 'gluon.contrib.pg8000.errors.ProgrammingError'>"
+p37
+sS'__doc__'
+p38
+S'None'
+p39
+sS'__getitem__'
+p40
+S"<method-wrapper '__getitem__' of ProgrammingError object>"
+p41
+sS'__setstate__'
+p42
+S'<built-in method __setstate__ of ProgrammingError object>'
+p43
+sS'__getattribute__'
+p44
+S"<method-wrapper '__getattribute__' of ProgrammingError object>"
+p45
+sS'args'
+p46
+S"('ERROR', '42883', 'function addgeometrycolumn(unknown, unknown, unknown, integer, unknown, integer) does not exist')"
+p47
+sS'__subclasshook__'
+p48
+S'<built-in method __subclasshook__ of type object>'
+p49
+sS'__unicode__'
+p50
+S'<built-in method __unicode__ of ProgrammingError object>'
+p51
+sS'__delattr__'
+p52
+S"<method-wrapper '__delattr__' of ProgrammingError object>"
+p53
+sS'__repr__'
+p54
+S"<method-wrapper '__repr__' of ProgrammingError object>"
+p55
+sS'__hash__'
+p56
+S"<method-wrapper '__hash__' of ProgrammingError object>"
+p57
+ssS'evalue'
+p58
+S"('ERROR', '42883', 'function addgeometrycolumn(unknown, unknown, unknown, integer, unknown, integer) does not exist')"
+p59
+sS'request'
+p60
+cgluon.html
+XML_unpickle
+p61
+(S'sIU\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">ajax</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">application</td><td style="vertical-align:top;">:</td><td><div>mapsnews</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cid</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">client</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">controller</td><td style="vertical-align:top;">:</td><td><div>default</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_admin</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-17197a0d-aa8d-4caf-8ea2-1de1daba73fe<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_welcome</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-6c87e8b6-08d1-49e1-8457-7be6ccaf31fc<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">env</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_ENCODING</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_LANGUAGE</td><td style="vertical-align:top;">:</td><td><div>es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONNECTION</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_COOKIE</td><td style="vertical-align:top;">:</td><td><div>session_id_welcome=127.0.0.1-6c87e8b6-08d1-49e1-8457-7be6ccaf31fc; session_id_admin=127.0.0.1-17197a0d-aa8d-4caf-8ea2-1de1daba73fe</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_HOST</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_REFERER</td><td style="vertical-align:top;">:</td><td><div>http://127.0.0.1:8000/admin/default/site</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_USER_AGENT</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:32.0) Gecko/20100101 Firefox/32.0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">PATH_INFO</td><td style="vertical-align:top;">:</td><td><div>/mapsnews/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">QUERY_STRING</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_ADDR</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_PORT</td><td style="vertical-align:top;">:</td><td><div>60546</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_METHOD</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SCRIPT_NAME</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_NAME</td><td style="vertical-align:top;">:</td><td><div>desarrollo-Factor</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PORT</td><td style="vertical-align:top;">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PROTOCOL</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_SOFTWARE</td><td style="vertical-align:top;">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/home/desarrollo/myapp/sismun/web2py/applications/mapsnews/&#x27;, &#x27;/home/desarrollo/myapp/sismun/web2py/applications/welcome/&#x27;, &#x27;/home/desarrollo/myapp/sismun/web2py/applications/admin/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/home/desarrollo/myapp/sismun/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_options</td><td style="vertical-align:top;">:</td><td><div>&lt;Values at 0x7fc4c8b73878: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;with_scheduler&#x27;: False, &#x27;ips&#x27;: [&#x27;127.0.1.1&#x27;], &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;port&#x27;: 8000, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;desarrollo-Factor&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: True, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;/home/desarrollo/myapp/sismun/web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;profiler_dir&#x27;: None, &#x27;args&#x27;: [&#x27;&#x27;], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;interfaces&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;scheduler_groups&#x27;: None, &#x27;password&#x27;: &#x27;123&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/home/desarrollo/myapp/sismun/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_encoding</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_language</td><td style="vertical-align:top;">:</td><td><div>es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_connection</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cookie</td><td style="vertical-align:top;">:</td><td><div>session_id_welcome=127.0.0.1-6c87e8b6-08d1-49e1-8457-7be6ccaf31fc; session_id_admin=127.0.0.1-17197a0d-aa8d-4caf-8ea2-1de1daba73fe</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_host</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_referer</td><td style="vertical-align:top;">:</td><td><div>http://127.0.0.1:8000/admin/default/site</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_user_agent</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:32.0) Gecko/20100101 Firefox/32.0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>::1</div></td></tr><tr><td><div>127.0.1.1</div></td></tr><tr><td><div>desarrollo-Factor</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path_info</td><td style="vertical-align:top;">:</td><td><div>/mapsnews/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">query_string</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_addr</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_port</td><td style="vertical-align:top;">:</td><td><div>60546</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_method</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_uri</td><td style="vertical-align:top;">:</td><td><div>/mapsnews/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">script_name</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_name</td><td style="vertical-align:top;">:</td><td><div>desarrollo-Factor</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_port</td><td style="vertical-align:top;">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_protocol</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_software</td><td style="vertical-align:top;">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_path</td><td style="vertical-align:top;">:</td><td><div>/home/desarrollo/myapp/sismun/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.9.5-stable+timestamp.2014.03.16.02.35.39</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x7fc4cd3e51e0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x7fc4c8be7a10&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.input</td><td style="vertical-align:top;">:</td><td><div>&lt;socket._fileobject object at 0x7fc4a4bb8ad0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multiprocess</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multithread</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.url_scheme</td><td style="vertical-align:top;">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x7fc4cd3e51e0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x7fc4c8be7a10&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_input</td><td style="vertical-align:top;">:</td><td><div>&lt;socket._fileobject object at 0x7fc4a4bb8ad0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multiprocess</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multithread</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_url_scheme</td><td style="vertical-align:top;">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">extension</td><td style="vertical-align:top;">:</td><td><div>html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">folder</td><td style="vertical-align:top;">:</td><td><div>/home/desarrollo/myapp/sismun/web2py/applications/mapsnews/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">function</td><td style="vertical-align:top;">:</td><td><div>index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">global_settings</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/home/desarrollo/myapp/sismun/web2py/applications/mapsnews/&#x27;, &#x27;/home/desarrollo/myapp/sismun/web2py/applications/welcome/&#x27;, &#x27;/home/desarrollo/myapp/sismun/web2py/applications/admin/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/home/desarrollo/myapp/sismun/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_options</td><td style="vertical-align:top;">:</td><td><div>&lt;Values at 0x7fc4c8b73878: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;with_scheduler&#x27;: False, &#x27;ips&#x27;: [&#x27;127.0.1.1&#x27;], &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;port&#x27;: 8000, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;desarrollo-Factor&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: True, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;/home/desarrollo/myapp/sismun/web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;profiler_dir&#x27;: None, &#x27;args&#x27;: [&#x27;&#x27;], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;interfaces&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;scheduler_groups&#x27;: None, &#x27;password&#x27;: &#x27;123&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/home/desarrollo/myapp/sismun/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>::1</div></td></tr><tr><td><div>127.0.1.1</div></td></tr><tr><td><div>desarrollo-Factor</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.9.5-stable+timestamp.2014.03.16.02.35.39</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_https</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_local</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_restful</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">now</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2014, 9, 18, 14, 58, 58, 236379)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_args</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_extension</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">url</td><td style="vertical-align:top;">:</td><td><div>/mapsnews/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">utcnow</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2014, 9, 18, 19, 58, 58, 236399)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uuid</td><td style="vertical-align:top;">:</td><td><div>mapsnews/127.0.0.1.2014-09-18.14-58-58.62c662e0-731e-41b0-aa89-8ef11d5b81ae</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi</td><td style="vertical-align:top;">:</td><td><div>&lt;gluon.main.LazyWSGI object at 0x7fc4a4bc4910&gt;</div></td></tr></table></div>'
+tRp62
+sS'frames'
+p63
+(lp64
+(dp65
+S'file'
+p66
+S'/home/desarrollo/myapp/sismun/web2py/gluon/restricted.py'
+p67
+sS'dump'
+p68
+(dp69
+S'environment'
+p70
+S"{'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'gluon.validators.ANY_OF'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, 'CAT': <class 'gluon.html.CAT'>, 'CENTER': <class 'gluon.html.CENTER'>, 'CLEANUP': <class 'gluon.validators.CLEANUP'>, ...}"
+p71
+sS'ccode'
+p72
+S'<code object <module> at 0x7fc4a4bb8b30, file "/...b2py/applications/mapsnews/models/db.py", line 4>'
+p73
+ssS'lnum'
+p74
+I220
+sS'lines'
+p75
+(dp76
+I224
+S'        # do not encapsulate (obfuscate) the original RestrictedError'
+p77
+sI215
+S'    try:'
+p78
+sI216
+S'        if isinstance(code, types.CodeType):'
+p79
+sI217
+S'            ccode = code'
+p80
+sI218
+S'        else:'
+p81
+sI219
+S'            ccode = compile2(code, layer)'
+p82
+sI220
+S'        exec ccode in environment'
+p83
+sI221
+S'    except HTTP:'
+p84
+sI222
+S'        raise'
+p85
+sI223
+S'    except RestrictedError:'
+p86
+ssS'call'
+p87
+S'(code=\'# -*- coding: utf-8 -*-\\n\\n# -*- coding: utf-8 -*-...281, 11.343062 44.494932, 10.394590 43.722998)")\\n\', environment={\'A\': <class \'gluon.html.A\'>, \'ANY_OF\': <class \'gluon.validators.ANY_OF\'>, \'B\': <class \'gluon.html.B\'>, \'BEAUTIFY\': <class \'gluon.html.BEAUTIFY\'>, \'BODY\': <class \'gluon.html.BODY\'>, \'BR\': <class \'gluon.html.BR\'>, \'BUTTON\': <class \'gluon.html.BUTTON\'>, \'CAT\': <class \'gluon.html.CAT\'>, \'CENTER\': <class \'gluon.html.CENTER\'>, \'CLEANUP\': <class \'gluon.validators.CLEANUP\'>, ...}, layer=\'/home/desarrollo/myapp/sismun/web2py/applications/mapsnews/models/db.py\')'
+p88
+sS'func'
+p89
+S'restricted'
+p90
+sa(dp91
+g66
+S'/home/desarrollo/myapp/sismun/web2py/applications/mapsnews/models/db.py'
+p92
+sg68
+(dp93
+S'Field'
+p94
+S"<class 'gluon.dal.Field'>"
+p95
+ssg74
+I7
+sg75
+(dp96
+I2
+S''
+sI3
+S'# -*- coding: utf-8 -*-'
+p97
+sI4
+S"db = DAL('postgres://postgres:oca01tex@localhost:5432/testw2p', lazy_tables=False,)"
+p98
+sI5
+S"db.define_table('geostuff',"
+p99
+sI6
+S"    Field('name', 'string'),"
+p100
+sI7
+S"    Field('geometry', 'geometry()'),"
+p101
+sI8
+S'    )'
+p102
+sI9
+S'n_rows = db(db.geostuff).count()'
+p103
+sI10
+S'if not n_rows:'
+p104
+sI11
+S'    db.geostuff.insert(name="My first geo point (London!)", geometry="POINT(-0.091109 51.512622)")'
+p105
+ssg87
+S'()'
+p106
+sg89
+S'<module>'
+p107
+sa(dp108
+g66
+S'/home/desarrollo/myapp/sismun/web2py/gluon/dal.py'
+p109
+sg68
+(dp110
+S'fields'
+p111
+S'(<gluon.dal.Field object>, <gluon.dal.Field object>)'
+p112
+sS'self'
+p113
+S'<DAL uri="postgres:******@localhost:5432/testw2p">'
+p114
+sS'args'
+p115
+g21
+sS'tablename'
+p116
+S"'geostuff'"
+p117
+sS'table'
+p118
+S'undefined'
+p119
+sS'self.lazy_define_table'
+p120
+S'<bound method DAL.lazy_define_table of <DAL uri="postgres:******@localhost:5432/testw2p">>'
+p121
+ssg74
+I8223
+sg75
+(dp122
+I8224
+S'        if not tablename in self.tables:'
+p123
+sI8225
+S'            self.tables.append(tablename)'
+p124
+sI8226
+S'        return table'
+p125
+sI8227
+S''
+sI8218
+S'                    % (tablename,invalid_args))'
+p126
+sI8219
+S'        if self._lazy_tables and not tablename in self._LAZY_TABLES:'
+p127
+sI8220
+S'            self._LAZY_TABLES[tablename] = (tablename,fields,args)'
+p128
+sI8221
+S'            table = None'
+p129
+sI8222
+S'        else:'
+p130
+sI8223
+S'            table = self.lazy_define_table(tablename,*fields,**args)'
+p131
+ssg87
+S'(self=<DAL uri="postgres:******@localhost:5432/testw2p">, tablename=\'geostuff\', *fields=(<gluon.dal.Field object>, <gluon.dal.Field object>), **args={})'
+p132
+sg89
+S'define_table'
+p133
+sa(dp134
+g66
+S'/home/desarrollo/myapp/sismun/web2py/gluon/dal.py'
+p135
+sg68
+(dp136
+S'polymodel'
+p137
+S'None'
+p138
+ssg74
+I8260
+sg75
+(dp139
+I8256
+S'                GLOBAL_LOCKER.acquire()'
+p140
+sI8257
+S'                self._lastsql = self._adapter.create_table('
+p141
+sI8258
+S'                    table,migrate=migrate,'
+p142
+sI8259
+S'                    fake_migrate=fake_migrate,'
+p143
+sI8260
+S'                    polymodel=polymodel)'
+p144
+sI8261
+S'            finally:'
+p145
+sI8262
+S'                GLOBAL_LOCKER.release()'
+p146
+sI8263
+S'        else:'
+p147
+sI8264
+S'            table._dbt = None'
+p148
+sI8255
+S'            try:'
+p149
+ssg87
+S'(self=<DAL uri="postgres:******@localhost:5432/testw2p">, tablename=\'geostuff\', *fields=(<gluon.dal.Field object>, <gluon.dal.Field object>), **args={})'
+p150
+sg89
+S'lazy_define_table'
+p151
+sa(dp152
+g66
+S'/home/desarrollo/myapp/sismun/web2py/gluon/dal.py'
+p153
+sg68
+(dp154
+S'query'
+p155
+S'"SELECT AddGeometryColumn (\'\', \'geostuff\', \'geometry\', 4326, \'GEOMETRY\', 2);"'
+p156
+sS'self'
+p157
+S'<gluon.dal.PostgreSQLAdapter object>'
+p158
+sS'self.execute'
+p159
+S'<bound method PostgreSQLAdapter.execute of <gluon.dal.PostgreSQLAdapter object>>'
+p160
+ssg74
+I1109
+sg75
+(dp161
+I1104
+S'                self.create_sequence_and_triggers(query,table)'
+p162
+sI1105
+S'                table._db.commit()'
+p163
+sI1106
+S'                # Postgres geom fields are added now,'
+p164
+sI1107
+S'                # after the table has been created'
+p165
+sI1108
+S'                for query in postcreation_fields:'
+p166
+sI1109
+S'                    self.execute(query)'
+p167
+sI1110
+S'                    table._db.commit()'
+p168
+sI1111
+S'            if table._dbt:'
+p169
+sI1112
+S"                tfile = self.file_open(table._dbt, 'w')"
+p170
+sI1113
+S'                pickle.dump(sql_fields, tfile)'
+p171
+ssg87
+S'(self=<gluon.dal.PostgreSQLAdapter object>, table=<Table geostuff (id,name,geometry)>, migrate=True, fake_migrate=False, polymodel=None)'
+p172
+sg89
+S'create_table'
+p173
+sa(dp174
+g66
+S'/home/desarrollo/myapp/sismun/web2py/gluon/dal.py'
+p175
+sg68
+(dp176
+S'a'
+S'("SELECT AddGeometryColumn (\'\', \'geostuff\', \'geometry\', 4326, \'GEOMETRY\', 2);",)'
+p177
+sS'self'
+p178
+S'<gluon.dal.PostgreSQLAdapter object>'
+p179
+sS'b'
+g21
+sS'self.log_execute'
+p180
+S'<bound method PostgreSQLAdapter.log_execute of <gluon.dal.PostgreSQLAdapter object>>'
+p181
+ssg74
+I1969
+sg75
+(dp182
+I1964
+S'        self.db._timings.append((command,time.time()-t0))'
+p183
+sI1965
+S'        del self.db._timings[:-TIMINGSSIZE]'
+p184
+sI1966
+S'        return ret'
+p185
+sI1967
+S''
+sI1968
+S'    def execute(self, *a, **b):'
+p186
+sI1969
+S'        return self.log_execute(*a, **b)'
+p187
+sI1970
+S''
+sI1971
+S'    def represent(self, obj, fieldtype):'
+p188
+sI1972
+S'        field_is_type = fieldtype.startswith'
+p189
+sI1973
+S'        if isinstance(obj, CALLABLETYPES):'
+p190
+ssg87
+S'(self=<gluon.dal.PostgreSQLAdapter object>, *a=("SELECT AddGeometryColumn (\'\', \'geostuff\', \'geometry\', 4326, \'GEOMETRY\', 2);",), **b={})'
+p191
+sg89
+S'execute'
+p192
+sa(dp193
+g66
+S'/home/desarrollo/myapp/sismun/web2py/gluon/dal.py'
+p194
+sg68
+(dp195
+S'a'
+S'("SELECT AddGeometryColumn (\'\', \'geostuff\', \'geometry\', 4326, \'GEOMETRY\', 2);",)'
+p196
+sS'b'
+g21
+sS'self'
+p197
+S'<gluon.dal.PostgreSQLAdapter object>'
+p198
+sS'ret'
+p199
+g119
+sS'self.cursor'
+p200
+S'<gluon.contrib.pg8000.dbapi.CursorWrapper object>'
+p201
+sS'command'
+p202
+S'"SELECT AddGeometryColumn (\'\', \'geostuff\', \'geometry\', 4326, \'GEOMETRY\', 2);"'
+p203
+sS'self.cursor.execute'
+p204
+S'<bound method CursorWrapper._fn of <gluon.contrib.pg8000.dbapi.CursorWrapper object>>'
+p205
+ssg74
+I1963
+sg75
+(dp206
+I1958
+S'            command = self.filter_sql_command(command)'
+p207
+sI1959
+S'        if self.db._debug:'
+p208
+sI1960
+S"            LOGGER.debug('SQL: %s' % command)"
+p209
+sI1961
+S'        self.db._lastsql = command'
+p210
+sI1962
+S'        t0 = time.time()'
+p211
+sI1963
+S'        ret = self.cursor.execute(command, *a[1:], **b)'
+p212
+sI1964
+S'        self.db._timings.append((command,time.time()-t0))'
+p213
+sI1965
+S'        del self.db._timings[:-TIMINGSSIZE]'
+p214
+sI1966
+S'        return ret'
+p215
+sI1967
+S''
+ssg87
+S'(self=<gluon.dal.PostgreSQLAdapter object>, *a=("SELECT AddGeometryColumn (\'\', \'geostuff\', \'geometry\', 4326, \'GEOMETRY\', 2);",), **b={})'
+p216
+sg89
+S'log_execute'
+p217
+sa(dp218
+g66
+S'/home/desarrollo/myapp/sismun/web2py/gluon/contrib/pg8000/dbapi.py'
+p219
+sg68
+(dp220
+S'self'
+p221
+S'<gluon.contrib.pg8000.dbapi.CursorWrapper object>'
+p222
+sS'args'
+p223
+S'("SELECT AddGeometryColumn (\'\', \'geostuff\', \'geometry\', 4326, \'GEOMETRY\', 2);",)'
+p224
+sS'fn'
+p225
+S'<function execute>'
+p226
+sS'kwargs'
+p227
+g21
+ssg74
+I246
+sg75
+(dp228
+I241
+S''
+sI242
+S'def require_open_cursor(fn):'
+p229
+sI243
+S'    def _fn(self, *args, **kwargs):'
+p230
+sI244
+S'        if self.cursor == None:'
+p231
+sI245
+S'            raise CursorClosedError()'
+p232
+sI246
+S'        return fn(self, *args, **kwargs)'
+p233
+sI247
+S'    return _fn'
+p234
+sI248
+S''
+sI249
+S'##'
+p235
+sI250
+S'# The class of object returned by the {@link #ConnectionWrapper.cursor cursor method}.'
+p236
+ssg87
+S'(self=<gluon.contrib.pg8000.dbapi.CursorWrapper object>, *args=("SELECT AddGeometryColumn (\'\', \'geostuff\', \'geometry\', 4326, \'GEOMETRY\', 2);",), **kwargs={})'
+p237
+sg89
+S'_fn'
+p238
+sa(dp239
+g66
+S'/home/desarrollo/myapp/sismun/web2py/gluon/contrib/pg8000/dbapi.py'
+p240
+sg68
+(dp241
+S'self._execute'
+p242
+S'<bound method CursorWrapper._execute of <gluon.contrib.pg8000.dbapi.CursorWrapper object>>'
+p243
+sS'self'
+p244
+S'<gluon.contrib.pg8000.dbapi.CursorWrapper object>'
+p245
+sS'args'
+p246
+S'()'
+p247
+sS'operation'
+p248
+S'"SELECT AddGeometryColumn (\'\', \'geostuff\', \'geometry\', 4326, \'GEOMETRY\', 2);"'
+p249
+ssg74
+I317
+sg75
+(dp250
+I320
+S'        new_query, new_args = convert_paramstyle(paramstyle, operation, args)'
+p251
+sI321
+S'        try:'
+p252
+sI312
+S'    @require_open_cursor'
+p253
+sI313
+S'    def execute(self, operation, args=()):'
+p254
+sI314
+S'        if not self._connection.in_transaction:'
+p255
+sI315
+S'            self._connection.begin()'
+p256
+sI316
+S'        self._override_rowcount = None'
+p257
+sI317
+S'        self._execute(operation, args)'
+p258
+sI318
+S''
+sI319
+S'    def _execute(self, operation, args=()):'
+p259
+ssg87
+S'(self=<gluon.contrib.pg8000.dbapi.CursorWrapper object>, operation="SELECT AddGeometryColumn (\'\', \'geostuff\', \'geometry\', 4326, \'GEOMETRY\', 2);", args=())'
+p260
+sg89
+g192
+sa(dp261
+g66
+S'/home/desarrollo/myapp/sismun/web2py/gluon/contrib/pg8000/dbapi.py'
+p262
+sg68
+(dp263
+S'new_args'
+p264
+S'()'
+p265
+sS'self.cursor'
+p266
+S'<gluon.contrib.pg8000.interface.Cursor object>'
+p267
+sS'self'
+p268
+S'<gluon.contrib.pg8000.dbapi.CursorWrapper object>'
+p269
+sS'new_query'
+p270
+S'"SELECT AddGeometryColumn (\'\', \'geostuff\', \'geometry\', 4326, \'GEOMETRY\', 2);"'
+p271
+sS'self.cursor.execute'
+p272
+S'<bound method Cursor.execute of <gluon.contrib.pg8000.interface.Cursor object>>'
+p273
+ssg74
+I322
+sg75
+(dp274
+I320
+S'        new_query, new_args = convert_paramstyle(paramstyle, operation, args)'
+p275
+sI321
+S'        try:'
+p276
+sI322
+S'            self.cursor.execute(new_query, *new_args)'
+p277
+sI323
+S'        except ConnectionClosedError:'
+p278
+sI324
+S"            # can't rollback in this case"
+p279
+sI325
+S'            raise'
+p280
+sI326
+S'        except:'
+p281
+sI317
+S'        self._execute(operation, args)'
+p282
+sI318
+S''
+sI319
+S'    def _execute(self, operation, args=()):'
+p283
+ssg87
+S'(self=<gluon.contrib.pg8000.dbapi.CursorWrapper object>, operation="SELECT AddGeometryColumn (\'\', \'geostuff\', \'geometry\', 4326, \'GEOMETRY\', 2);", args=())'
+p284
+sg89
+S'_execute'
+p285
+sa(dp286
+g66
+S'/home/desarrollo/myapp/sismun/web2py/gluon/contrib/pg8000/interface.py'
+p287
+sg68
+(dp288
+S'x'
+g119
+sS'args'
+p289
+S'()'
+p290
+sS'builtintype'
+p291
+S"<type 'type'>"
+p292
+sS'self._stmt'
+p293
+S'<gluon.contrib.pg8000.interface.PreparedStatement object>'
+p294
+sS'self'
+p295
+S'<gluon.contrib.pg8000.interface.Cursor object>'
+p296
+sS'self.connection'
+p297
+S'<gluon.contrib.pg8000.interface.Connection object>'
+p298
+sS'global PreparedStatement'
+p299
+S"<class 'gluon.contrib.pg8000.interface.PreparedStatement'>"
+p300
+sS'statement_name'
+p301
+g119
+sS'query'
+p302
+S'"SELECT AddGeometryColumn (\'\', \'geostuff\', \'geometry\', 4326, \'GEOMETRY\', 2);"'
+p303
+ssg74
+I398
+sg75
+(dp304
+I393
+S'                # use PostgreSQL Simple Query Protocol'
+p305
+sI394
+S'                ## print "SimpleQuery:", query'
+p306
+sI395
+S'                self._stmt = SimpleStatement(self.connection, query)'
+p307
+sI396
+S'            else:'
+p308
+sI397
+S'                # use PostgreSQL Extended Query Protocol'
+p309
+sI398
+S'                self._stmt = PreparedStatement(self.connection, query, statement_name="", *[{"type": type(x), "value": x} for x in args])'
+p310
+sI399
+S'            self._stmt.execute(*args, **kwargs)'
+p311
+sI400
+S'        finally:'
+p312
+sI401
+S'            self.connection._unnamed_prepared_statement_lock.release()'
+p313
+sI402
+S''
+ssg87
+S'(self=<gluon.contrib.pg8000.interface.Cursor object>, query="SELECT AddGeometryColumn (\'\', \'geostuff\', \'geometry\', 4326, \'GEOMETRY\', 2);", *args=(), **kwargs={})'
+p314
+sg89
+g192
+sa(dp315
+g66
+S'/home/desarrollo/myapp/sismun/web2py/gluon/contrib/pg8000/interface.py'
+p316
+sg68
+(dp317
+S'self.c'
+p318
+S'<gluon.contrib.pg8000.protocol.Connection object>'
+p319
+sS'self'
+p320
+S'<gluon.contrib.pg8000.interface.PreparedStatement object>'
+p321
+sS'self.c.parse'
+p322
+S'<bound method Connection._fn of <gluon.contrib.pg8000.protocol.Connection object>>'
+p323
+sS'self._statement_name'
+p324
+S"''"
+p325
+sS'self._parse_row_desc'
+p326
+g119
+sS'statement'
+p327
+S'"SELECT AddGeometryColumn (\'\', \'geostuff\', \'geometry\', 4326, \'GEOMETRY\', 2);"'
+p328
+sS'types'
+p329
+S'()'
+p330
+ssg74
+I138
+sg75
+(dp331
+I133
+S'        self._statement_name = kwargs.get("statement_name", "pg8000_statement_%s" % self._statement_number)'
+p332
+sI134
+S'        self._row_desc = None'
+p333
+sI135
+S'        self._cached_rows = []'
+p334
+sI136
+S'        self._ongoing_row_count = 0'
+p335
+sI137
+S'        self._command_complete = True'
+p336
+sI138
+S'        self._parse_row_desc = self.c.parse(self._statement_name, statement, types)'
+p337
+sI139
+S'        self._lock = threading.RLock()'
+p338
+sI140
+S''
+sI141
+S'    def close(self):'
+p339
+sI142
+S'        if self._statement_name != "": # don\'t close unnamed statement'
+p340
+ssg87
+S'(self=<gluon.contrib.pg8000.interface.PreparedStatement object>, connection=<gluon.contrib.pg8000.interface.Connection object>, statement="SELECT AddGeometryColumn (\'\', \'geostuff\', \'geometry\', 4326, \'GEOMETRY\', 2);", *types=(), **kwargs={\'statement_name\': \'\'})'
+p341
+sg89
+g26
+sa(dp342
+g66
+S'/home/desarrollo/myapp/sismun/web2py/gluon/contrib/pg8000/protocol.py'
+p343
+sg68
+(dp344
+S'self'
+p345
+S'<gluon.contrib.pg8000.protocol.Connection object>'
+p346
+sS'args'
+p347
+S'(\'\', "SELECT AddGeometryColumn (\'\', \'geostuff\', \'geometry\', 4326, \'GEOMETRY\', 2);", ())'
+p348
+sS'fn'
+p349
+S'<function parse>'
+p350
+sS'kwargs'
+p351
+g21
+ssg74
+I943
+sg75
+(dp352
+I938
+S''
+sI939
+S'def sync_on_error(fn):'
+p353
+sI940
+S'    def _fn(self, *args, **kwargs):'
+p354
+sI941
+S'        try:'
+p355
+sI942
+S'            self._sock_lock.acquire()'
+p356
+sI943
+S'            return fn(self, *args, **kwargs)'
+p357
+sI944
+S'        except:'
+p358
+sI945
+S'            self._sync()'
+p359
+sI946
+S'            raise'
+p360
+sI947
+S'        finally:'
+p361
+ssg87
+S'(self=<gluon.contrib.pg8000.protocol.Connection object>, *args=(\'\', "SELECT AddGeometryColumn (\'\', \'geostuff\', \'geometry\', 4326, \'GEOMETRY\', 2);", ()), **kwargs={})'
+p362
+sg89
+g238
+sa(dp363
+g66
+S'/home/desarrollo/myapp/sismun/web2py/gluon/contrib/pg8000/protocol.py'
+p364
+sg68
+(dp365
+S'reader.handle_messages'
+p366
+S'<bound method MessageReader.handle_messages of <gluon.contrib.pg8000.protocol.MessageReader object>>'
+p367
+sS'reader'
+p368
+S'<gluon.contrib.pg8000.protocol.MessageReader object>'
+p369
+ssg74
+I1104
+sg75
+(dp370
+I1099
+S'        reader.add_message(NoData, lambda msg: (None, param_fc))'
+p371
+sI1100
+S''
+sI1101
+S'        # Common row description response'
+p372
+sI1102
+S'        reader.add_message(RowDescription, lambda msg: (msg, param_fc))'
+p373
+sI1103
+S''
+sI1104
+S'        return reader.handle_messages()'
+p374
+sI1105
+S''
+sI1106
+S'    @sync_on_error'
+p375
+sI1107
+S'    def bind(self, portal, statement, params, parse_data, copy_stream):'
+p376
+sI1108
+S'        self.verifyState("ready")'
+p377
+ssg87
+S'(self=<gluon.contrib.pg8000.protocol.Connection object>, statement=\'\', qs="SELECT AddGeometryColumn (\'\', \'geostuff\', \'geometry\', 4326, \'GEOMETRY\', 2);", param_types=[])'
+p378
+sg89
+S'parse'
+p379
+sa(dp380
+g66
+S'/home/desarrollo/myapp/sismun/web2py/gluon/contrib/pg8000/protocol.py'
+p381
+sg68
+(dp382
+S'exc'
+p383
+S"ProgrammingError('ERROR', '42883', 'function add...nown, integer, unknown, integer) does not exist')"
+p384
+ssg74
+I929
+sg75
+(dp385
+I928
+S'                if not self.delay_raising_exception:'
+p386
+sI929
+S'                    raise exc'
+p387
+sI930
+S'            elif isinstance(msg, NoticeResponse):'
+p388
+sI931
+S'                self._conn.handleNoticeResponse(msg)'
+p389
+sI932
+S'            elif isinstance(msg, ParameterStatus):'
+p390
+sI933
+S'                self._conn.handleParameterStatus(msg)'
+p391
+sI924
+S'            if msg_handled:'
+p392
+sI925
+S'                continue'
+p393
+sI926
+S'            elif isinstance(msg, ErrorResponse):'
+p394
+sI927
+S'                exc = msg.createException()'
+p395
+ssg87
+S'(self=<gluon.contrib.pg8000.protocol.MessageReader object>)'
+p396
+sg89
+S'handle_messages'
+p397
+sasS'pyver'
+p398
+S'Python 2.7.6: /usr/bin/python (prefix: /usr)'
+p399
+sS'session'
+p400
+g61
+(S's\x1a\x00\x00\x00<div><table></table></div>'
+tRp401
+sS'etype'
+p402
+S"<class 'gluon.contrib.pg8000.errors.ProgrammingError'>"
+p403
+sS'date'
+p404
+S'Thu Sep 18 14:58:58 2014'
+p405
+sS'response'
+p406
+g61
+(S's\x95\x15\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">body</td><td style="vertical-align:top;">:</td><td><div>&lt;cStringIO.StringO object at 0x7fc4a4bc8a40&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_mapsnews</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-c4f43937-b28c-423b-ac37-0d37d068b98e<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div>/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">delimiters</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>{{</div></td></tr><tr><td><div>}}</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">files</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generic_patterns</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">headers</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">X-Powered-By</td><td style="vertical-align:top;">:</td><td><div>web2py</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">menu</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">meta</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">models_to_run</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>^\\w+\\.py$</div></td></tr><tr><td><div>^default/\\w+\\.py$</div></td></tr><tr><td><div>^default/index/\\w+\\.py$</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">postprocessing</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_client</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_compression_level</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_expires</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_key</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_data_name</td><td style="vertical-align:top;">:</td><td><div>session_data_mapsnews</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_file</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_filename</td><td style="vertical-align:top;">:</td><td><div>/home/desarrollo/myapp/sismun/web2py/applications/mapsnews/sessions/127.0.0.1-c4f43937-b28c-423b-ac37-0d37d068b98e</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_hash</td><td style="vertical-align:top;">:</td><td><div>106f4c22ca06cc343e42b73a0d8492f6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-c4f43937-b28c-423b-ac37-0d37d068b98e</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_name</td><td style="vertical-align:top;">:</td><td><div>session_id_mapsnews</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_masterapp</td><td style="vertical-align:top;">:</td><td><div>mapsnews</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_new</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_storage_type</td><td style="vertical-align:top;">:</td><td><div>file</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">status</td><td style="vertical-align:top;">:</td><td><div>200</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">view</td><td style="vertical-align:top;">:</td><td><div>default/index.html</div></td></tr></table></div>'
+tRp407
+sS'locals'
+p408
+(dp409
+S'exc'
+p410
+S"ProgrammingError('ERROR', '42883', 'function add...nown, integer, unknown, integer) does not exist')"
+p411
+sS'msg_class'
+p412
+S"<class 'gluon.contrib.pg8000.protocol.RowDescription'>"
+p413
+sS'self'
+p414
+S'<gluon.contrib.pg8000.protocol.MessageReader object>'
+p415
+sg46
+S'()'
+p416
+sS'handler'
+p417
+S'<function <lambda>>'
+p418
+sS'kwargs'
+p419
+g21
+sS'msg'
+p420
+S"<ErrorResponse ERROR 42883 'function addgeometry...nown, integer, unknown, integer) does not exist'>"
+p421
+sS'msg_handled'
+p422
+S'False'
+p423
+sssS'traceback'
+p424
+S'Traceback (most recent call last):\n  File "/home/desarrollo/myapp/sismun/web2py/gluon/restricted.py", line 220, in restricted\n    exec ccode in environment\n  File "/home/desarrollo/myapp/sismun/web2py/applications/mapsnews/models/db.py", line 7, in <module>\n    Field(\'geometry\', \'geometry()\'),\n  File "/home/desarrollo/myapp/sismun/web2py/gluon/dal.py", line 8223, in define_table\n    table = self.lazy_define_table(tablename,*fields,**args)\n  File "/home/desarrollo/myapp/sismun/web2py/gluon/dal.py", line 8260, in lazy_define_table\n    polymodel=polymodel)\n  File "/home/desarrollo/myapp/sismun/web2py/gluon/dal.py", line 1109, in create_table\n    self.execute(query)\n  File "/home/desarrollo/myapp/sismun/web2py/gluon/dal.py", line 1969, in execute\n    return self.log_execute(*a, **b)\n  File "/home/desarrollo/myapp/sismun/web2py/gluon/dal.py", line 1963, in log_execute\n    ret = self.cursor.execute(command, *a[1:], **b)\n  File "/home/desarrollo/myapp/sismun/web2py/gluon/contrib/pg8000/dbapi.py", line 246, in _fn\n    return fn(self, *args, **kwargs)\n  File "/home/desarrollo/myapp/sismun/web2py/gluon/contrib/pg8000/dbapi.py", line 317, in execute\n    self._execute(operation, args)\n  File "/home/desarrollo/myapp/sismun/web2py/gluon/contrib/pg8000/dbapi.py", line 322, in _execute\n    self.cursor.execute(new_query, *new_args)\n  File "/home/desarrollo/myapp/sismun/web2py/gluon/contrib/pg8000/interface.py", line 398, in execute\n    self._stmt = PreparedStatement(self.connection, query, statement_name="", *[{"type": type(x), "value": x} for x in args])\n  File "/home/desarrollo/myapp/sismun/web2py/gluon/contrib/pg8000/interface.py", line 138, in __init__\n    self._parse_row_desc = self.c.parse(self._statement_name, statement, types)\n  File "/home/desarrollo/myapp/sismun/web2py/gluon/contrib/pg8000/protocol.py", line 943, in _fn\n    return fn(self, *args, **kwargs)\n  File "/home/desarrollo/myapp/sismun/web2py/gluon/contrib/pg8000/protocol.py", line 1104, in parse\n    return reader.handle_messages()\n  File "/home/desarrollo/myapp/sismun/web2py/gluon/contrib/pg8000/protocol.py", line 929, in handle_messages\n    raise exc\nProgrammingError: (\'ERROR\', \'42883\', \'function addgeometrycolumn(unknown, unknown, unknown, integer, unknown, integer) does not exist\')\n'
+p425
+s.

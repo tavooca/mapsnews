@@ -53,3 +53,43 @@ CREATE TABLE auth_cas(
     renew CHAR(1)
 );
 success!
+timestamp: 2014-09-18T14:58:58.248340
+CREATE TABLE geostuff(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(512)
+);
+timestamp: 2014-09-18T15:22:59.488115
+CREATE TABLE geostuff(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(512)
+);
+timestamp: 2014-09-18T15:23:46.462416
+CREATE TABLE geostuff(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(512)
+);
+timestamp: 2014-09-18T15:25:09.146782
+CREATE TABLE geostuff(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(512)
+);
+timestamp: 2014-09-18T15:47:55.052191
+CREATE TABLE geostuff(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(512)
+);
+timestamp: 2014-09-19T13:20:14.009603
+CREATE TABLE geostuff(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(512)
+);
+timestamp: 2014-09-19T13:26:00.862507
+CREATE TABLE geostuff(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(512)
+);
+timestamp: 2014-09-19T13:53:06.543537
+CREATE TABLE geostuff(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(512)
+);
