@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # -*- coding: utf-8 -*-
-db = DAL('postgres://postgres:oca01tex@localhost:5432/testw2p', lazy_tables=False, migrate=False,)
+db = DAL('postgres://postgres:prueba@localhost:5432/testw2p', lazy_tables=False, migrate=False,)
 db.define_table('geostuff',
     Field('name', 'string'),
     Field('geometr', 'geometry()'),
